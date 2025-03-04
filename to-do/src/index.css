@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.body {
+  background-color: rgb(13, 6, 19);
+  display: flex;
+}
+
+.to-do-list {
+  border-radius: 12px;
+  background-color: rgb(68, 68, 139);
+  font-family: "Ubuntu", sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  margin-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 18px;
+  border: none;
+  padding: 9.6px 11.2px;
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button {
+  background-color: rgb(133, 160, 133);
+}
+
+.add-button:hover {
+  background-color: rgb(122, 157, 122);
+}
+
+.delete-button {
+  background-color: rgb(158, 58, 70);
+}
+
+.delete-button:hover {
+  background-color: rgb(157, 47, 59);
+}
+
+.move-button {
+  background-color: rgb(119, 123, 154);
+}
+
+.move-button:hover {
+  background-color: rgb(106, 111, 154);
+}
+
+.down-button {
+  background-color: rgb(119, 123, 154);
+}
+
+.down-button:hover {
+  background-color: rgb(106, 111, 154);
+}
+
+input[type="text"] {
+  border-radius: 18px;
+  width: 200px;
+  padding: 9.6px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: rgb(28, 26, 53);
+}
+
+ol {
+  padding: 0;
+  font-size: 1.5rem;
+  list-style: none;
+  font-weight: 700;
+  background-color: beige;
+  margin-bottom: 10px;
+  padding-right: 12px;
+  border: 3px, solid rgb(41, 42, 60);
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
